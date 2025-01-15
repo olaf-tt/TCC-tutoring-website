@@ -1,0 +1,36 @@
+body {
+    padding-top: 56px;
+}
+
+.bg-gradient {
+    background: linear-gradient(135deg, #e6f2ff 0%, #ffffff 100%) !important;
+}
+
+.text-primary {
+    color: #0056b3 !important;
+}
+
+.btn-primary {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-primary:hover {
+    background-color: #004494;
+    border-color: #004494;
+}
+
+#intro {
+    background-attachment: fixed;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    .lead {
+        font-size: 1.1rem;
+    }
+}
+
